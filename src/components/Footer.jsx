@@ -15,9 +15,9 @@ function Footer() {
                     <img width='80' src='https://cocosolis.com//wp-content/uploads/icon-payments-apple-pay.svg' />
                 </div>
             </div>
-            <div className='flex flex-row gap-12 w-[80vw] my-16'>
+            <div className='flex flex-col gap-12 w-[80vw] my-16 sm:flex-row'>
                 <div className='flex flex-col gap-2 flex-[2] text-sm'>
-                    <p className='text-xl font-normal'>Полезни връзки</p>
+                    <p className='text-xl font-normal'>Полезни връзки:</p>
                     <p>Продукти</p>
                     <p>CLUB</p>
                     <p>Контакти</p>

@@ -8,9 +8,9 @@ function Main() {
         <main>
             <section className='w-full h-[80vh] flex flex-col'>
                 <div className="flex-1 bg-primary-lighter flex flex-col items-center justify-center gap-1">
-                    <img src="https://placehold.co/740x120" />
-                    <p className="text-[3rem] font-bold text-[#664164] tracking-[0.3rem]">BLACK FRIDAY</p>
-                    <button className="bg-[#664164] text-[1.4rem] py-2 px-24 text-primary-lighter">ПАЗАРУВАЙ</button>
+                    <img className="hidden sm:block" src="https://placehold.co/740x120" />
+                    <p className="text-[3rem] font-bold text-[#664164] tracking-[0.3rem] text-center">BLACK FRIDAY</p>
+                    <button className="bg-[#664164] text-[1.4rem] py-2 px-[16vw] text-primary-lighter">ПАЗАРУВАЙ</button>
                 </div>
                 <div className="bg-[#664164] text-white flex flex-row gap-1 font-extralight text-xs py-1 justify-center">
                     <p>* Промоцията е валидна до изчерпване на количествата.</p>
@@ -86,7 +86,7 @@ function Main() {
                     <p className="text-sm">Натурални продукти за силна, гъста и бляскава коса</p>
                 </div>
 
-                <div className="mb-16 w-[80vh] m-auto">
+                <div className="mb-16 w-[80vw] m-auto">
                     <div className="grid grid-cols-2 gap-x-12">
                         <Product
                             title='GROW'
@@ -481,7 +481,7 @@ function Main() {
                     </div>
                 </div>
 
-                <img className='hidden !w-auto !h-auto !max-h-[500px] !max-w-[640px] lg:!block' width='640' height='500' src="https://placehold.co/640x500" />
+                <img className='hidden w-auto h-auto max-h-[500px] max-w-[640px] lg:block' width='640' height='500' src="https://placehold.co/640x500" />
             </section>
 
             <section className="bg-primary-dark text-white">
@@ -554,7 +554,7 @@ function Main() {
 
             <section className='bg-[#2bb1ff] flex flex-row gap-8 justify-center w-full items-center'>
                 <img width='160' src='https://cocosolis.com/wp-content/uploads/SOS_logo-BG.svg'></img>
-                <img width='160' src='https://cocosolis.com/wp-content/uploads/cocosolis-sos-gold-partners-2023.svg'></img>
+                <img className='hidden sm:block' width='160' src='https://cocosolis.com/wp-content/uploads/cocosolis-sos-gold-partners-2023.svg'></img>
                 <div className="text-white">COCOSOLIS дарява по 1лв. от всеки закупен продукт на SOS детски селища.</div>
             </section>
         </main>

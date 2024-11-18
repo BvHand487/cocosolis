@@ -22,11 +22,11 @@ function Header() {
             </li>
         </ul>
 
-        <div className='flex flex-row gap-4 justify-self-end'>
+        <div className='flex flex-row gap-4 justify-self-end shrink-0'>
             <div className="cursor-pointer">
                 <img className="size-5" src="https://cocosolis.com/wp-content/uploads/search-icon.svg"/>
             </div>
-            <div className="cursor-pointer">
+            <div className="cursor-pointer shrink-0">
                 <img className="size-5" src="https://cocosolis.com/wp-content/uploads/cart-shopping-solid.svg"/>
             </div>
             <div className="flex flex-row gap-2 cursor-pointer">
